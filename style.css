@@ -98,6 +98,7 @@ button {
     border-radius: 10px;
     text-align: center;
     margin: 60px;
+    padding: 24px;
 }
 
 .footer {
@@ -106,5 +107,11 @@ button {
 }
 
 .hero {
-    padding-bottom: 60px;
+    padding-bottom: 80px;
+}
+
+.hero-image {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
 }
