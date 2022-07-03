@@ -19,6 +19,18 @@ a {
     color: #F9FAF8;
 }
 
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+}
+
+.hero-image img {
+    width: 500px;
+    height: 350px;
+}
+
 ul {
     display: flex;
     list-style: none;
@@ -64,18 +76,13 @@ img {
     padding-right: 60px;
 }
 
-.main-text {
+.hero-text {
     font-size: 48px;
     font-weight: extra-bold;
     color: #F9FAF8;
     align-items: flex-start;
 }
 
-.secondary-text {
-    font-size: 18px;
-    color: #F9FAF8;
-    align-items: flex-start;
-}
 
 button {
     background-color: #3882F6;
@@ -104,14 +111,4 @@ button {
 .footer {
     text-align: center;
     color: #E5E7EB;
-}
-
-.hero {
-    padding-bottom: 80px;
-}
-
-.hero-image {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: flex-end;
 }
